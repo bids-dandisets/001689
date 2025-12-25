@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -37,7 +38,13 @@ description: This Dandiset contains invasive neurophysiology and tissue oxygen r
   collected in awake, restrained rabbits during 10-minute resting-state sessions,
   supporting the analyses in “Assessing Chance in Neuro-Vascular Interactions.” The
   dataset is intended for studying neurovascular interactions/vasomotion and for reproducing
-  the surrogate-based statistical framework used in the manuscript.
+  the surrogate-based statistical framework used in the manuscript. This dandiset
+  contains data from 43 resting-state experiments (10 minutes each) consisting of
+  simultaneous brain tissue PO₂ recordings and neuronal activity measures (LFP band
+  envelopes and/or single-unit activity). Experiments were performed in 11 pigmented
+  Dutch-belted rabbits; see the associated manuscript for subject details and experimental
+  context.
+ethicsApproval: []
 id: DANDI:001689/draft
 identifier: DANDI:001689
 license:
@@ -45,8 +52,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001689/versions/draft/assets/
 name: Assessing Chance in Neuro-Vascular Interactions
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001689/draft
 version: draft
+wasGeneratedBy: []
