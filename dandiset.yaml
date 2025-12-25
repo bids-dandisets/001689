@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 28956216
+  numberOfFiles: 86
+  numberOfSubjects: 43
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9986
+    name: Oryctolagus cuniculus - Rabbits
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Aksenov, Daniil (2025) Assessing Chance in Neuro-Vascular Interactions (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001689/draft
 contributor:
